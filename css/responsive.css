@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+    #contacts-desktop{
+        display: none;
+    }
+    
+    #contacts-mobile{
+        display: block;
+    }
+
+    h1{
+        font-family: 'bold';
+        text-align: center;
+        color: #F2CF66;
+        text-shadow: 2px 2px #BF4E58;
+    }
+    .contact-card{
+        background-color: #F2CF66;
+        margin: 0 auto 20px auto;
+        padding: 20px;
+        width: 85%;
+        box-shadow: 7px 7px #BF4E58;
+    }
+
+    .contact-row{
+        margin-bottom: 5px;
+    }
+
+    .key{
+        font-family: 'bold';
+    }
+
+    .value{
+        font-family: 'regular';
+    }
+}
